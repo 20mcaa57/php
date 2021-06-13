@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <center>
+        <h1>Student Registration Form</h1>
+        <h2>Nitte PG Course</h2>
+        <form action="admission.php" method="POST">
+            First name<input type="text" name="t1" required="must enter"><br> Middle name<input type="text" name="t2" required=""><br> Last name<input type="text" name="t3" required=""><br> Photo
+            <input type="file" name="pic" required=""><br> Fathername <input type="text" name="t4" required=""><br> Address
+            <textarea name="t5" rows="3" cols="10" required=""></textarea><br> Contact No<input type="number" name="t6" required="" maxlength="10"><br> Date of Birth<input type="Date" name="t7" required=""><br> Gender
+            <input type="radio" name="r" class="radio" value="male"> male <input type="radio" name="r" class="radio" value="female"> Female
+            <br> Percentage in Degree<input type="text" name="t8" maxlength="3" required=""><br> Hobbies:&nbsp; <input type="checkbox" required="" name="p">Drawing
+            <input type="checkbox" required="" name="p">Singing
+            <input type="checkbox" required="" name="p">Reading<br> Institution Studied
+            <textarea rows="3" cols="10" name="t12" required=""> </textarea><br>
+            <p>Course Studied:&nbsp; </p>
+            <input type="radio" name="s" value="BCA" class="radio" required="">BCA
+            <input type="radio" name="s" value="BSc" class="radio" required=""> BSc
+            <input type="radio" name="s" value="BCOM" class="radio" required="">BCOM
+            <input type="radio" name="s" value="BE" class="radio" required="">BE<br>
+
+
+            <p>Course Offered:&nbsp; </p>
+            <input type="radio" name="s1" value="MCA" class="radio" required="">MCA
+            <input type="radio" name="s1" value="Mtech" class="radio" required=""> Mtech
+            <input type="radio" name="s1" value="MBA" class="radio" required=""> MBA
+            <input type="radio" name="s1" value="MSc" class="radio" required="">MSc<br>
+
+            <button>Submit</button> <button><input type="Reset" name=""></button>
+        </form>
+    </center>
+</body>
+
+</html>
